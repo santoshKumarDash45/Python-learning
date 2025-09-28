@@ -3,12 +3,11 @@
 print(10 & 20) 
 
 # Answer will be 0
-
-# print(10.5 & 20.6)
+print(10.5 & 20.6)
 
 # Type error because both are float 
 
-# print('durge' & 'soft')
+print('durge' & 'soft')
 
 # Type error because both are string values
 
