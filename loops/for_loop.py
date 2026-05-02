@@ -1,3 +1,5 @@
+# For Loop - demonstrates iterating over a list with a conditional check
+
 cart = [10, 20 , 30 , 40 , 500, 600]
 
 for item in cart:
