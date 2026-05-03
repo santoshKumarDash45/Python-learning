@@ -1,12 +1,12 @@
 # For Loop - demonstrates iterating over a list with a conditional check
 
-cart = [10, 20 , 30 , 40 , 500, 600]
+cart = [10, 20, 30, 40, 500, 600]   # list of cart items with prices
 
-for item in cart:
-    if item > 200:
-        print("It requires insurnace to process the order", item)
+for item in cart:                   # iterate over each item in the cart list
+    if item > 200:                  # check if the item price exceeds 200
+        print("It requires insurnace to process the order", item)  # print warning for high-value item
         
-    print("Processed items", item)
+    print("Processed items", item)  # always prints for every item regardless of the condition above
 
 
 

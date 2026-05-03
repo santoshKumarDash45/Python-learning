@@ -19,20 +19,14 @@
 
 #  Example---
 
-x = 10
-print(x)
+x = 10      # normal variable - valid identifier, starts with a letter
+print(x)    # prints 10
 
-_x = 20
-print(_x)
+_x = 20     # protected variable - starts with single underscore, convention for internal use
+print(_x)   # prints 20
 
-__x = 30
-print(__x)
+__x = 30    # private variable - starts with double underscore, name mangling applies inside classes
+print(__x)  # prints 30
 
-if = 30
-print(if)  # here if is reserved keyword so it will show error .
-
-
-
-
-
-
+if = 30     # invalid identifier - 'if' is a reserved keyword, this will raise a SyntaxError
+print(if)   # here if is reserved keyword so it will show error .
