@@ -14,3 +14,18 @@ print(type(d))                      # prints <class 'int'> - Python 3 handles bi
 
 
 # in python 2 long data type was there but in python 3 it is removed 
+
+
+
+# Everything in python is object .
+
+e = 20
+print(type(e))  
+              # Used to get the type of a 
+              # prints <class 'int'>
+              # e is a refrencing variable which is pointing to 20
+
+print(id(e))  
+            #   used to get the address of object
+
+print(e)                     # prints 20
